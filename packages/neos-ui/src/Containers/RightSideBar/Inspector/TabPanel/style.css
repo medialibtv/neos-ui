@@ -2,5 +2,7 @@
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    scrollbar-color: var(--colors-ContrastBright) var(--colors-ContrastDarker);
+    scrollbar-width: thin;
     background: var(--colors-ContrastDarker);
 }

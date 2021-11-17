@@ -30,3 +30,8 @@
 :global body::-webkit-scrollbar-corner {
     background-color: var(--colors-ContrastDark);
 }
+/* Scrollbar, firefox */
+:root {
+    scrollbar-color: var(--colors-ContrastBright) var(--colors-ContrastDarker) !important;
+    scrollbar-width: thin !important;
+}

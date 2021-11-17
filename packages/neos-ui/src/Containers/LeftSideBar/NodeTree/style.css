@@ -1,5 +1,7 @@
 .pageTree {
     overflow-y: auto;
+    scrollbar-color: var(--colors-ContrastBright) var(--colors-ContrastDarker);
+    scrollbar-width: thin;
     /* Node Tree is expected to be rendered inside a display: flex container - and it will take up all remaining space */
     flex: 1 0 0px;
     transition: var(--transition-Slow) ease height, overflow-y var(--transition-Slow);
